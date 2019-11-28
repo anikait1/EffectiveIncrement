@@ -1,5 +1,8 @@
 import sys
 
+base_num = None
+increment_value = None
+
 try:
     base_num = int(sys.argv[1])
     increment_value = int(sys.argv[2])
